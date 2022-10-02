@@ -1,25 +1,26 @@
 html {
-  font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  font-size: 12px;
+  background: url('./background.jpeg') bottom center;
   background-size: cover;
 }
 
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-weight: lighter;
 }
 
 .keys {
   display: flex;
   flex: 1;
   min-height: 100vh;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid rgb(185, 4, 128);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -34,8 +35,8 @@ body,html {
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #00ff3c;
+  box-shadow: 0 0 1rem #00ff3c;
 }
 
 kbd {
@@ -47,5 +48,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #00ff3c;
 }
